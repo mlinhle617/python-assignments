@@ -1,6 +1,7 @@
 ## Process Documentation
 
 This is my process of experimenting with solution 1, outlined in the presentation. 
+(https://docs.google.com/presentation/d/1epfivxch6BtdyMOsN8Z2T-W4reBQG7tpeuMYywq3zu0/edit?usp=sharing)
 
 ### Step 1
 
