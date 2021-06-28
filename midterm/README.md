@@ -33,9 +33,9 @@ If it’s frame 1:
 
 
 ### References Used
-[Toolfarm’s Learning Python to Expand Cinema 4D Tutorials]
-(https://www.toolfarm.com/tutorial/c4d_spotlight_python_to_expand_cinema_4d/)
-[The Official Cinema 4D S24.111 Python Documentation] 
-(https://developers.maxon.net/docs/Cinema4DPythonSDK/html/index.html)
-[Cineversity’s Scripting with Python and Xpresso Tutorials]
-(https://www.cineversity.com/learn/Scripting/)
+Toolfarm’s Learning Python to Expand Cinema 4D Tutorials
+https://www.toolfarm.com/tutorial/c4d_spotlight_python_to_expand_cinema_4d/
+The Official Cinema 4D S24.111 Python Documentation
+https://developers.maxon.net/docs/Cinema4DPythonSDK/html/index.html
+Cineversity’s Scripting with Python and Xpresso Tutorials
+https://www.cineversity.com/learn/Scripting/
