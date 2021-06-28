@@ -22,6 +22,7 @@ Create a particle generator that create points on the model with XPresso
 2. Create splines from the points with the Python node inside Cinema 4D's XPresso
 
 Pseudocode:
+
 If it’s frame 1:
 - list = empty list to hold points on the model
 - list.append(points to connect)
