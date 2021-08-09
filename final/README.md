@@ -21,15 +21,26 @@ Create a particle generator that create points on the model with XPresso
 1. Pass the points to Python
 2. Create splines from the points with the Python node inside Cinema 4D's XPresso
 
-Pseudocode:
->If it’s frame 1:
-	list = empty list to hold points on the model
-	list.append(points to connect)
-	spline = variable to hold c4d SplineObject’s linear spline
-	Pass the list to SplineObject to create spline
-	Insert spline into the scene under snail_geometry
-	Notify Cinema 4D that the geometry has been added
+### Step 4
 
+1. Combine the splines
+2. Use Sweep to create renderable 3D geometry
+
+### Step 5
+
+1. Create an object
+2. Put the object in a cloner
+3. Use Python to create a custom mograph effector for the cloner
+
+### Step 6
+
+1. Using full control to handle all clones at once, create an oscillating effect with the Python effector
+2. Let the animation run until the design looks right
+
+### Step 7
+
+1. Combine the snail and the shell to create the model.
+2. Render the image.
 
 ### References Used
 [Toolfarm’s Learning Python to Expand Cinema 4D Tutorials]
@@ -38,3 +49,5 @@ Pseudocode:
 (https://developers.maxon.net/docs/Cinema4DPythonSDK/html/index.html)
 [Cineversity’s Scripting with Python and Xpresso Tutorials]
 (https://www.cineversity.com/learn/Scripting/)
+https://www.cineversity.com/vidplaytut/nab_2015_rewind_colin_sebestyen
+
