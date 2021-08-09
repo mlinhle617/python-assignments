@@ -1,6 +1,6 @@
 ## Process Documentation
 
-This is my process of experimenting with solution 1, outlined in the presentation. 
+This is my process of creating the sculpture in Cinema 4D. 
 
 ### Step 1
 
