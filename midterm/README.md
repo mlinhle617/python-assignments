@@ -1,6 +1,7 @@
 ## Process Documentation
 
 This is my process of experimenting with solution 1, outlined in the presentation. 
+(https://docs.google.com/presentation/d/1epfivxch6BtdyMOsN8Z2T-W4reBQG7tpeuMYywq3zu0/edit?usp=sharing)
 
 ### Step 1
 
@@ -22,19 +23,23 @@ Create a particle generator that create points on the model with XPresso
 2. Create splines from the points with the Python node inside Cinema 4D's XPresso
 
 Pseudocode:
->If it’s frame 1:
-	list = empty list to hold points on the model
-	list.append(points to connect)
-	spline = variable to hold c4d SplineObject’s linear spline
-	Pass the list to SplineObject to create spline
-	Insert spline into the scene under snail_geometry
-	Notify Cinema 4D that the geometry has been added
+
+If it’s frame 1:
+- list = empty list to hold points on the model
+- list.append(points to connect)
+- spline = variable to hold c4d SplineObject’s linear spline
+- Pass the list to SplineObject to create spline
+- Insert spline into the scene under snail_geometry
+- Notify Cinema 4D that the geometry has been added
 
 
 ### References Used
-[Toolfarm’s Learning Python to Expand Cinema 4D Tutorials]
-(https://www.toolfarm.com/tutorial/c4d_spotlight_python_to_expand_cinema_4d/)
-[The Official Cinema 4D S24.111 Python Documentation] 
-(https://developers.maxon.net/docs/Cinema4DPythonSDK/html/index.html)
-[Cineversity’s Scripting with Python and Xpresso Tutorials]
-(https://www.cineversity.com/learn/Scripting/)
+
+Toolfarm’s Learning Python to Expand Cinema 4D Tutorials
+https://www.toolfarm.com/tutorial/c4d_spotlight_python_to_expand_cinema_4d/
+
+The Official Cinema 4D S24.111 Python Documentation
+https://developers.maxon.net/docs/Cinema4DPythonSDK/html/index.html
+
+Cineversity’s Scripting with Python and Xpresso Tutorials
+https://www.cineversity.com/learn/Scripting/
